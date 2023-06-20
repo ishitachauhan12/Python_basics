@@ -11,23 +11,23 @@ while n > 0:
     n = n - 1
 print('Blastoff!')
 
-# #infinite loop with break
-# while True:
-#     line = input('> ')
-#     if line == 'done':
-#         break
-#     print(line)
-# print('Done!')
+#infinite loop with break
+while True:
+    line = input('> ')
+    if line == 'done':
+        break
+    print(line)
+print('Done!')
 
-# # Finishing iterations with continue
-# while True:
-#     line = input('> ')
-#     if line[0] == '#':
-#         continue
-#     if line == 'done':
-#         break
-#     print(line)
-# print('Done!')
+# Finishing iterations with continue
+while True:
+    line = input('> ')
+    if line[0] == '#':
+        continue
+    if line == 'done':
+        break
+    print(line)
+print('Done!')
 
 # for loop
 friends = ['Joseph', 'Glenn', 'Sally']
